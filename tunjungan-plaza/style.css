@@ -1,6 +1,4 @@
-/* --- GLOBAL VARIABLES & THEME --- */
 :root {
-    /* Travney-style Palette */
     --tp-blue: #0946E2;       /* Deeper, Tech Blue */
     --tp-blue-soft: #F2F6FF;  /* Very light blue bg */
     --tp-orange-start: #FF7A00;
@@ -63,7 +61,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--tp-blue);
 }
 
-/* Soft Cards (The "Travney" look) */
 .card-custom {
     background: white;
     border: none;
@@ -116,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Hero with Floating Widget */
 .hero-wrapper {
     position: relative;
-    padding-top: 140px; /* Navbar space + padding */
+    padding-top: 140px; 
     padding-bottom: 100px;
     background: var(--tp-blue-soft);
     overflow: hidden;
